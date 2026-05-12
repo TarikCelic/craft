@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --mainTransparent: #2b5bfb2a;
+  --mainTransparentLink: #809dfa2a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-space-grotesk);
+}
